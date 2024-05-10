@@ -1,5 +1,5 @@
 from huggingface_hub import login
-login(token = "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")
+login(token = )
 
 tokenizer = AutoTokenizer.from_pretrained(
     "meta-llama/Llama-2-7b-chat-hf",
